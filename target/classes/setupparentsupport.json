@@ -1,0 +1,30 @@
+[
+  {
+    "First Name":"Mathews",
+    "Last Name": "Eric",
+    "Email Address": "mathews.eric@yz.com",
+    "User Name": "mathewseric",
+    "Password": "Pass1@word"
+  },
+  {
+    "First Name":"Sri",
+    "Last Name": "Latte",
+    "Email Address": "sri.late@mz.com",
+    "User Name": "srilatteee",
+    "Password": "Pass1@word"
+  },
+  {
+    "First Name":"Noble",
+    "Last Name": "winner",
+    "Email Address": "noble.winner@gz.com",
+    "User Name": "noblewinner",
+    "Password": "Pass1@word"
+  },
+  {
+    "First Name":"Rick",
+    "Last Name": "Shane",
+    "Email Address": "rick.shane@yo.com",
+    "User Name": "rickshane",
+    "Password": "Pass1@word"
+  }
+]

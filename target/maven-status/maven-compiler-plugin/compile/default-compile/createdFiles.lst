@@ -1,0 +1,7 @@
+utilities\AutomationReport.class
+com\assignment\app\pageobjectfactory\LoginPage.class
+utilities\NavigationUtils.class
+com\assignment\app\pageobjectfactory\ParentSupportAccountCreationPage.class
+utilities\OtherUtils.class
+utilities\WebManager.class
+utilities\WebManager$BrowserType.class

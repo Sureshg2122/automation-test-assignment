@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.assignment.app.TestListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="assignment">
+        <classes>
+            <class name="com.assignment.app.ApiTest">
+                <methods>
+                    <include name="eulaVerification"/>
+                </methods>
+            </class>
+            <class name="com.assignment.app.UiTest">
+                <methods>
+                    <include name="verifyIfPageLoads"/>
+                    <include name="verifyNumberOfLanguages"/>
+                    <include name="verifyLanguageSelection"/>
+                    <include name="verifySetupParentSupportUsingExcel"/>
+                    <include name="verifySetupParentSupportUsingJson"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

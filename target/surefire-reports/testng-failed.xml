@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="com.assignment.app.TestListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="assignment(failed)">
+    <classes>
+      <class name="com.assignment.app.UiTest">
+        <methods>
+          <include name="verifySetupParentSupportUsingJson"/>
+          <include name="verifyLanguageSelection"/>
+          <include name="closeBrowser"/>
+          <include name="setPropertiesFile"/>
+          <include name="verifyNumberOfLanguages"/>
+          <include name="verifySetupParentSupportUsingExcel"/>
+          <include name="verifyIfPageLoads"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- com.assignment.app.UiTest -->
+    </classes>
+  </test> <!-- assignment(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
