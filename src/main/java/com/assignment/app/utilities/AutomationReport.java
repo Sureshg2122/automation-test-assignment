@@ -1,4 +1,4 @@
-package utilities;
+package com.assignment.app.utilities;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.Status;

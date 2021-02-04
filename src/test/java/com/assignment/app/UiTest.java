@@ -2,9 +2,9 @@ package com.assignment.app;
 
 import com.assignment.app.pageobjectfactory.LoginPage;
 import com.assignment.app.pageobjectfactory.ParentSupportAccountCreationPage;
-import utilities.NavigationUtils;
-import utilities.OtherUtils;
-import utilities.WebManager;
+import com.assignment.app.utilities.NavigationUtils;
+import com.assignment.app.utilities.OtherUtils;
+import com.assignment.app.utilities.WebManager;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -79,7 +79,9 @@ public class UiTest {
                         .ignoring(NoSuchElementException.class, StaleElementReferenceException.class)
                         .until(ExpectedConditions.elementToBeClickable(loginPage.getCloseiFrame()));
             } catch (TimeoutException exception) {
-                Assert.assertTrue(false, "page load not completed within 10 seconds: iframe Done button not clickable in 10 seconds");
+                if (!loginPage.getCloseiFrameUsingNext().isDisplayed()) {
+                    Assert.assertTrue(false, "page load not completed within 10 seconds: iframe Done button not clickable in 10 seconds");
+                }
             }
         } else {
 

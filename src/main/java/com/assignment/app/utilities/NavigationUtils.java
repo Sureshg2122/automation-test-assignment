@@ -1,4 +1,4 @@
-package utilities;
+package com.assignment.app.utilities;
 
 import com.assignment.app.pageobjectfactory.LoginPage;
 import org.openqa.selenium.*;
@@ -23,7 +23,12 @@ public class NavigationUtils {
                         .ignoring(NoSuchElementException.class, StaleElementReferenceException.class)
                         .until(ExpectedConditions.elementToBeClickable(loginPage.getCloseiFrame()));
             } catch (TimeoutException exception) {
-                Assert.assertTrue(false, "page load not completed within 10 seconds: iframe Done button not clickable in 10 seconds");
+                if (loginPage.getCloseiFrameUsingNext().isDisplayed()) {
+                    loginPage.getCloseiFrameUsingNext().click();
+                } else {
+                    Assert.assertTrue(false, "page load not completed within 10 seconds: iframe Done button not clickable in 10 seconds");
+                }
+
             }
 
             loginPage.getCloseiFrame().click();
@@ -72,9 +77,21 @@ public class NavigationUtils {
         loginPage.getCreateANewAccount().click();
 
 
-        new WebDriverWait(driver, 20)
-                .ignoring(StaleElementReferenceException.class, NoSuchElementException.class)
-                .until(ExpectedConditions.stalenessOf(driver.findElement(By.xpath("//*[contains(text(), 'Loading...')]"))));
+        try {
+            new WebDriverWait(driver, 50)
+                    .ignoring(StaleElementReferenceException.class, NoSuchElementException.class)
+                    .until(ExpectedConditions.stalenessOf(driver.findElement(By.xpath("//*[contains(text(), 'Loading...')]"))));
+        } catch (Exception e) {
+
+            try {
+                loginPage.getCreateANewAccount().click();
+            } catch (NoSuchElementException noSuchElementException) {
+                new WebDriverWait(driver, 20)
+                        .ignoring(StaleElementReferenceException.class, NoSuchElementException.class)
+                        .until(ExpectedConditions.stalenessOf(driver.findElement(By.xpath("//*[contains(text(), 'Loading...')]"))));
+            }
+
+        }
 
     }
 }

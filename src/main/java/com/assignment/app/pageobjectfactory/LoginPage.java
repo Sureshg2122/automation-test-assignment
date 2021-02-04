@@ -35,6 +35,9 @@ public class LoginPage {
     @FindBy(id = "spanDone")
     WebElement closeiFrame;
 
+    @FindBy(id = "spanNext")
+    WebElement closeiFrameUsingNext;
+
     @FindBy(xpath = "//button[@id='SI_0005']/div/div")
     WebElement continueButton;
 
@@ -86,6 +89,10 @@ public class LoginPage {
 
     public WebElement getContinueButton() {
         return continueButton;
+    }
+
+    public WebElement getCloseiFrameUsingNext() {
+        return closeiFrameUsingNext;
     }
 
 }

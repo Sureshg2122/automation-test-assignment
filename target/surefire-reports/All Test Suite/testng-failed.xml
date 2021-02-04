@@ -8,13 +8,9 @@
     <classes>
       <class name="com.assignment.app.UiTest">
         <methods>
-          <include name="verifySetupParentSupportUsingJson"/>
-          <include name="verifyLanguageSelection"/>
+          <include name="verifySetupParentSupportUsingJson" invocation-numbers="3"/>
           <include name="closeBrowser"/>
           <include name="setPropertiesFile"/>
-          <include name="verifyNumberOfLanguages"/>
-          <include name="verifySetupParentSupportUsingExcel"/>
-          <include name="verifyIfPageLoads"/>
           <include name="setBrowser"/>
         </methods>
       </class> <!-- com.assignment.app.UiTest -->

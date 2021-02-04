@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="231948" started-at="2021-02-03T15:54:48Z" finished-at="2021-02-03T15:58:40Z">
+  <suite name="All Test Suite" duration-ms="225060" started-at="2021-02-04T14:17:53Z" finished-at="2021-02-04T14:21:38Z">
     <groups>
     </groups>
-    <test name="assignment" duration-ms="231948" started-at="2021-02-03T15:54:48Z" finished-at="2021-02-03T15:58:40Z">
+    <test name="assignment" duration-ms="225060" started-at="2021-02-04T14:17:53Z" finished-at="2021-02-04T14:21:38Z">
       <class name="com.assignment.app.ApiTest">
-        <test-method status="PASS" signature="setBaseURI()[pri:0, instance:com.assignment.app.ApiTest@1f1c7bf6]" name="setBaseURI" is-config="true" duration-ms="279" started-at="2021-02-03T15:54:48Z" finished-at="2021-02-03T15:54:49Z">
+        <test-method status="PASS" signature="setBaseURI()[pri:0, instance:com.assignment.app.ApiTest@1f1c7bf6]" name="setBaseURI" is-config="true" duration-ms="264" started-at="2021-02-04T14:17:53Z" finished-at="2021-02-04T14:17:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseURI -->
-        <test-method status="PASS" signature="eulaVerification(java.lang.String)[pri:0, instance:com.assignment.app.ApiTest@1f1c7bf6]" name="eulaVerification" duration-ms="5096" started-at="2021-02-03T15:54:49Z" data-provider="getData" finished-at="2021-02-03T15:54:54Z">
+        <test-method status="PASS" signature="eulaVerification(java.lang.String)[pri:0, instance:com.assignment.app.ApiTest@1f1c7bf6]" name="eulaVerification" duration-ms="4571" started-at="2021-02-04T14:17:53Z" data-provider="getData" finished-at="2021-02-04T14:17:58Z">
           <params>
             <param index="0">
               <value>
@@ -24,51 +24,51 @@
         </test-method> <!-- eulaVerification -->
       </class> <!-- com.assignment.app.ApiTest -->
       <class name="com.assignment.app.UiTest">
-        <test-method status="PASS" signature="setPropertiesFile()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setPropertiesFile" is-config="true" duration-ms="1" started-at="2021-02-03T15:54:54Z" finished-at="2021-02-03T15:54:54Z">
+        <test-method status="PASS" signature="setPropertiesFile()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setPropertiesFile" is-config="true" duration-ms="0" started-at="2021-02-04T14:17:58Z" finished-at="2021-02-04T14:17:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPropertiesFile -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1446" started-at="2021-02-03T15:54:54Z" finished-at="2021-02-03T15:54:55Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1449" started-at="2021-02-04T14:17:58Z" finished-at="2021-02-04T14:17:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifyIfPageLoads()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifyIfPageLoads" duration-ms="13890" started-at="2021-02-03T15:54:55Z" finished-at="2021-02-03T15:55:09Z">
+        <test-method status="PASS" signature="verifyIfPageLoads()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifyIfPageLoads" duration-ms="11237" started-at="2021-02-04T14:17:59Z" finished-at="2021-02-04T14:18:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIfPageLoads -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="603" started-at="2021-02-03T15:55:09Z" finished-at="2021-02-03T15:55:10Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="635" started-at="2021-02-04T14:18:11Z" finished-at="2021-02-04T14:18:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1156" started-at="2021-02-03T15:55:10Z" finished-at="2021-02-03T15:55:11Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1169" started-at="2021-02-04T14:18:11Z" finished-at="2021-02-04T14:18:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifyNumberOfLanguages()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifyNumberOfLanguages" duration-ms="14163" started-at="2021-02-03T15:55:11Z" finished-at="2021-02-03T15:55:25Z">
+        <test-method status="PASS" signature="verifyNumberOfLanguages()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifyNumberOfLanguages" duration-ms="12734" started-at="2021-02-04T14:18:12Z" finished-at="2021-02-04T14:18:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNumberOfLanguages -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="606" started-at="2021-02-03T15:55:25Z" finished-at="2021-02-03T15:55:26Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="615" started-at="2021-02-04T14:18:25Z" finished-at="2021-02-04T14:18:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1163" started-at="2021-02-03T15:55:26Z" finished-at="2021-02-03T15:55:27Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1193" started-at="2021-02-04T14:18:26Z" finished-at="2021-02-04T14:18:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifyLanguageSelection()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifyLanguageSelection" duration-ms="24489" started-at="2021-02-03T15:55:27Z" finished-at="2021-02-03T15:55:51Z">
+        <test-method status="PASS" signature="verifyLanguageSelection()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifyLanguageSelection" duration-ms="18225" started-at="2021-02-04T14:18:27Z" finished-at="2021-02-04T14:18:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLanguageSelection -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="620" started-at="2021-02-03T15:55:51Z" finished-at="2021-02-03T15:55:52Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="619" started-at="2021-02-04T14:18:45Z" finished-at="2021-02-04T14:18:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1169" started-at="2021-02-03T15:55:52Z" finished-at="2021-02-03T15:55:53Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1135" started-at="2021-02-04T14:18:46Z" finished-at="2021-02-04T14:18:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifySetupParentSupportUsingExcel(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingExcel" duration-ms="19600" started-at="2021-02-03T15:55:53Z" data-provider="getExcelData" finished-at="2021-02-03T15:56:13Z">
+        <test-method status="PASS" signature="verifySetupParentSupportUsingExcel(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingExcel" duration-ms="19800" started-at="2021-02-04T14:18:47Z" data-provider="getExcelData" finished-at="2021-02-04T14:19:07Z">
           <params>
             <param index="0">
               <value>
@@ -79,15 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySetupParentSupportUsingExcel -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="612" started-at="2021-02-03T15:56:13Z" finished-at="2021-02-03T15:56:14Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="610" started-at="2021-02-04T14:19:07Z" finished-at="2021-02-04T14:19:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1156" started-at="2021-02-03T15:56:14Z" finished-at="2021-02-03T15:56:15Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1167" started-at="2021-02-04T14:19:08Z" finished-at="2021-02-04T14:19:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifySetupParentSupportUsingExcel(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingExcel" duration-ms="19450" started-at="2021-02-03T15:56:15Z" data-provider="getExcelData" finished-at="2021-02-03T15:56:34Z">
+        <test-method status="PASS" signature="verifySetupParentSupportUsingExcel(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingExcel" duration-ms="18766" started-at="2021-02-04T14:19:09Z" data-provider="getExcelData" finished-at="2021-02-04T14:19:28Z">
           <params>
             <param index="0">
               <value>
@@ -98,15 +98,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySetupParentSupportUsingExcel -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="605" started-at="2021-02-03T15:56:34Z" finished-at="2021-02-03T15:56:35Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="619" started-at="2021-02-04T14:19:28Z" finished-at="2021-02-04T14:19:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1156" started-at="2021-02-03T15:56:35Z" finished-at="2021-02-03T15:56:36Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1124" started-at="2021-02-04T14:19:28Z" finished-at="2021-02-04T14:19:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifySetupParentSupportUsingExcel(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingExcel" duration-ms="19945" started-at="2021-02-03T15:56:36Z" data-provider="getExcelData" finished-at="2021-02-03T15:56:56Z">
+        <test-method status="PASS" signature="verifySetupParentSupportUsingExcel(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingExcel" duration-ms="19573" started-at="2021-02-04T14:19:29Z" data-provider="getExcelData" finished-at="2021-02-04T14:19:49Z">
           <params>
             <param index="0">
               <value>
@@ -117,15 +117,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySetupParentSupportUsingExcel -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="609" started-at="2021-02-03T15:56:56Z" finished-at="2021-02-03T15:56:57Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="614" started-at="2021-02-04T14:19:49Z" finished-at="2021-02-04T14:19:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1163" started-at="2021-02-03T15:56:57Z" finished-at="2021-02-03T15:56:58Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1133" started-at="2021-02-04T14:19:50Z" finished-at="2021-02-04T14:19:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifySetupParentSupportUsingExcel(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingExcel" duration-ms="19112" started-at="2021-02-03T15:56:58Z" data-provider="getExcelData" finished-at="2021-02-03T15:57:17Z">
+        <test-method status="PASS" signature="verifySetupParentSupportUsingExcel(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingExcel" duration-ms="22058" started-at="2021-02-04T14:19:51Z" data-provider="getExcelData" finished-at="2021-02-04T14:20:13Z">
           <params>
             <param index="0">
               <value>
@@ -136,15 +136,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySetupParentSupportUsingExcel -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="616" started-at="2021-02-03T15:57:17Z" finished-at="2021-02-03T15:57:17Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="619" started-at="2021-02-04T14:20:13Z" finished-at="2021-02-04T14:20:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1174" started-at="2021-02-03T15:57:17Z" finished-at="2021-02-03T15:57:19Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1141" started-at="2021-02-04T14:20:13Z" finished-at="2021-02-04T14:20:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifySetupParentSupportUsingJson(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingJson" duration-ms="19737" started-at="2021-02-03T15:57:19Z" data-provider="getJsonData" finished-at="2021-02-03T15:57:38Z">
+        <test-method status="PASS" signature="verifySetupParentSupportUsingJson(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingJson" duration-ms="19212" started-at="2021-02-04T14:20:15Z" data-provider="getJsonData" finished-at="2021-02-04T14:20:34Z">
           <params>
             <param index="0">
               <value>
@@ -155,15 +155,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySetupParentSupportUsingJson -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="602" started-at="2021-02-03T15:57:38Z" finished-at="2021-02-03T15:57:39Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="622" started-at="2021-02-04T14:20:34Z" finished-at="2021-02-04T14:20:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1149" started-at="2021-02-03T15:57:39Z" finished-at="2021-02-03T15:57:40Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1203" started-at="2021-02-04T14:20:34Z" finished-at="2021-02-04T14:20:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifySetupParentSupportUsingJson(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingJson" duration-ms="18867" started-at="2021-02-03T15:57:40Z" data-provider="getJsonData" finished-at="2021-02-03T15:57:59Z">
+        <test-method status="PASS" signature="verifySetupParentSupportUsingJson(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingJson" duration-ms="19722" started-at="2021-02-04T14:20:36Z" data-provider="getJsonData" finished-at="2021-02-04T14:20:55Z">
           <params>
             <param index="0">
               <value>
@@ -174,15 +174,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySetupParentSupportUsingJson -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="611" started-at="2021-02-03T15:57:59Z" finished-at="2021-02-03T15:58:00Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="625" started-at="2021-02-04T14:20:55Z" finished-at="2021-02-04T14:20:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1154" started-at="2021-02-03T15:58:00Z" finished-at="2021-02-03T15:58:01Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1189" started-at="2021-02-04T14:20:56Z" finished-at="2021-02-04T14:20:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifySetupParentSupportUsingJson(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingJson" duration-ms="18545" started-at="2021-02-03T15:58:01Z" data-provider="getJsonData" finished-at="2021-02-03T15:58:19Z">
+        <test-method status="PASS" signature="verifySetupParentSupportUsingJson(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingJson" duration-ms="18994" started-at="2021-02-04T14:20:57Z" data-provider="getJsonData" finished-at="2021-02-04T14:21:16Z">
           <params>
             <param index="0">
               <value>
@@ -193,15 +193,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySetupParentSupportUsingJson -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="607" started-at="2021-02-03T15:58:19Z" finished-at="2021-02-03T15:58:20Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="612" started-at="2021-02-04T14:21:16Z" finished-at="2021-02-04T14:21:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1180" started-at="2021-02-03T15:58:20Z" finished-at="2021-02-03T15:58:21Z">
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="setBrowser" is-config="true" duration-ms="1116" started-at="2021-02-04T14:21:17Z" finished-at="2021-02-04T14:21:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="verifySetupParentSupportUsingJson(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingJson" duration-ms="18557" started-at="2021-02-03T15:58:21Z" data-provider="getJsonData" finished-at="2021-02-03T15:58:40Z">
+        <test-method status="PASS" signature="verifySetupParentSupportUsingJson(java.lang.String)[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="verifySetupParentSupportUsingJson" duration-ms="19708" started-at="2021-02-04T14:21:18Z" data-provider="getJsonData" finished-at="2021-02-04T14:21:38Z">
           <params>
             <param index="0">
               <value>
@@ -212,7 +212,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySetupParentSupportUsingJson -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="613" started-at="2021-02-03T15:58:40Z" finished-at="2021-02-03T15:58:40Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.assignment.app.UiTest@25b485ba]" name="closeBrowser" is-config="true" duration-ms="626" started-at="2021-02-04T14:21:38Z" finished-at="2021-02-04T14:21:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

@@ -1,4 +1,4 @@
-package utilities;
+package com.assignment.app.utilities;
 
 // using webdriver manager eliminates the need to have driver files
 

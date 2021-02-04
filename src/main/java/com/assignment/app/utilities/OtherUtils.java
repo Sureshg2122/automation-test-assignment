@@ -1,4 +1,4 @@
-package utilities;
+package com.assignment.app.utilities;
 
 import com.assignment.app.pageobjectfactory.ParentSupportAccountCreationPage;
 import org.openqa.selenium.*;
